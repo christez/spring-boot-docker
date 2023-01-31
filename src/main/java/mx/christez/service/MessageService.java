@@ -5,6 +5,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class MessageService {
 	public String greet() {
-		return "Hello, timestamp is " + System.currentTimeMillis();
+		return "Hello, timestamp is " + System.currentTimeMillis() + ". Thanks for stopping by";
 	}
 }
